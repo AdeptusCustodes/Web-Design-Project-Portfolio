@@ -39,6 +39,7 @@ header{
     align-items: center;
     justify-content: space-around;
     margin-right: 7%;
+    flex-wrap: wrap;
 }
 
 .menu__items a{
@@ -54,30 +55,30 @@ header{
     background-color: #ffea00;
 }
 
-.main__content{
+.main__header{
     background-image: url(../img/slider_bg.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 700px;
 }
 
-.main__content h1, h2{
+.main__header h1, .main__header h2{
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.main__content h1{
+.main__header h1{
     position: absolute;
     left: 10%;
     top: 300px;
 }
 
-.main__content h2{
+.main__header h2{
     position: absolute;
     left: 10%;
     top: 570px;
 }
 
-.main__content h1 span{
+.main__header h1 span{
     background: yellow;
     -webkit-box-decoration-break: clone;
     -o-box-decoration-break: clone;
@@ -88,7 +89,7 @@ header{
     padding: 10px;
 }
 
-.main__content h2 span{
+.main__header h2 span{
     color: #fff;
     background: #414146;
     -webkit-box-decoration-break: clone;
@@ -98,4 +99,38 @@ header{
     font-size: 16pt;
     padding: 4px;
 }
+
+.main__content{
+    padding-top: 90px;
+    height: 560px;
+    width: 100%;
+}
+
+.main__content__text{
+    text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif; 
+}
+
+.main__content__text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.main__content__text h3{
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+
+
+.content__images__block{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
+
+
+
 
