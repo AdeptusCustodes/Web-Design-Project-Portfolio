@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1633px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 162px;
+    background-color: #f6f6f6;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.menu__logo{
+    margin-left: 6%;
+
+}
+
+.header__menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 7%;
+}
+
+.menu__items a{
+    color: black;
+    font-size: 16pt;
+    line-height: 32pt;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 25px 15px;
+}
+
+.menu__items a:hover{
+    background-color: #ffea00;
+}
+
+.main__content{
+    background-image: url(../img/slider_bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 700px;
+}
+
+.main__content h1, h2{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.main__content h1{
+    position: absolute;
+    left: 10%;
+    top: 300px;
+}
+
+.main__content h2{
+    position: absolute;
+    left: 10%;
+    top: 570px;
+}
+
+.main__content h1 span{
+    background: yellow;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    line-height: 1.7;
+    font-size: 55pt;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main__content h2 span{
+    color: #fff;
+    background: #414146;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    line-height: 1.9;
+    font-size: 16pt;
+    padding: 4px;
+}
+
